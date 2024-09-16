@@ -1,12 +1,12 @@
 {
     "client_version"  : 30,
-    "client_repo_url" : "https://github.com/AndyGrant/OpenBench",
+    "client_repo_url" : "https://github.com/toanth/OpenBench",
     "client_repo_ref" : "master",
 
     "use_cross_approval"          : false,
     "require_login_to_view"       : false,
-    "require_manual_registration" : false,
-    "balance_engine_throughputs"  : false,
+    "require_manual_registration" : true,
+    "balance_engine_throughputs"  : true,
 
     "books" : [
         "2moves_v1.epd",
@@ -23,6 +23,7 @@
     ],
 
     "engines" : [
+        "Motors",
         "4ku",
         "Berserk",
         "Bit-Genie",
